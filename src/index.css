@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --slate-950: #020617;
+  --slate-900: #0f172a;
+  --slate-850: #182235;
+  --slate-800: #1e293b;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-300: #cbd5e1;
+  --slate-200: #e2e8f0;
+  --slate-100: #f8fafc;
+  --slate-50: #fafafa;
+}
+
+.light-mode {
+  --slate-950: #ffffff;
+  --slate-900: #f8fafc;
+  --slate-850: #f1f5f9;
+  --slate-800: #e2e8f0;
+  --slate-700: #cbd5e1;
+  --slate-600: #94a3b8;
+  --slate-500: #64748b;
+  --slate-400: #475569;
+  --slate-300: #334155;
+  --slate-200: #1e293b;
+  --slate-100: #0f172a;
+  --slate-50: #020617;
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-slate-950: var(--slate-950);
+  --color-slate-900: var(--slate-900);
+  --color-slate-850: var(--slate-850);
+  --color-slate-800: var(--slate-800);
+  --color-slate-700: var(--slate-700);
+  --color-slate-600: var(--slate-600);
+  --color-slate-500: var(--slate-500);
+  --color-slate-400: var(--slate-400);
+  --color-slate-300: var(--slate-300);
+  --color-slate-200: var(--slate-200);
+  --color-slate-100: var(--slate-100);
+  --color-slate-50: var(--slate-50);
+}
+
+.light-mode .bg-grid-pattern {
+  background-image: linear-gradient(to right, rgba(20, 184, 166, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(20, 184, 166, 0.05) 1px, transparent 1px);
+}
+
+.light-mode .blur-\[130px\],
+.light-mode .blur-\[150px\] {
+  opacity: 0.15;
+}
+
+/* Custom gorgeous cyber grid background pattern */
+.bg-grid-pattern {
+  background-size: 50px 50px;
+  background-image: linear-gradient(to right, rgba(20, 184, 166, 0.02) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(20, 184, 166, 0.02) 1px, transparent 1px);
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(20, 184, 166, 0.15);
+  background: rgba(15, 23, 42, 0.7);
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(20, 184, 166, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 184, 166, 0.35);
+}
+
+/* Interactive Option Key Glowing & Pressing States */
+.option-key-glow {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.option-key-glow:hover {
+  background-color: rgba(30, 41, 59, 0.5) !important;
+  border-color: rgba(20, 184, 166, 0.4) !important;
+  color: #2dd4bf !important;
+  box-shadow: 0 0 18px rgba(20, 184, 166, 0.2), inset 0 0 8px rgba(20, 184, 166, 0.05);
+  transform: translateY(-1px);
+}
+
+.option-key-glow:active {
+  transform: scale(0.96) !important;
+  background-color: rgba(20, 184, 166, 0.1) !important;
+  border-color: #2dd4bf !important;
+  color: #2dd4bf !important;
+  box-shadow: 0 0 25px rgba(20, 184, 166, 0.35);
+}
+
+/* Selected option key active state */
+.option-key-selected {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.12), rgba(16, 185, 129, 0.08)) !important;
+  border-color: rgba(20, 184, 166, 0.5) !important;
+  color: #2dd4bf !important;
+  box-shadow: 0 0 15px rgba(20, 184, 166, 0.15), inset 0 0 10px rgba(20, 184, 166, 0.05);
+}
+
+.option-key-selected:hover {
+  box-shadow: 0 0 22px rgba(20, 184, 166, 0.3);
+}
+

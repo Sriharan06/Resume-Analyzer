@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": "google-google-10492839482934",
+      "name": "S Sriharan",
+      "email": "sriharan6320@gmail.com",
+      "role": "candidate",
+      "isPremium": false,
+      "createdAt": "2026-06-28T11:46:49.441Z"
+    }
+  ],
+  "resumes": [],
+  "certificates": [],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Senior Full Stack Engineer",
+      "company": "Google Cloud",
+      "location": "Sunnyvale, CA (Hybrid)",
+      "salaryRange": "$160,000 - $210,000",
+      "jobType": "Full-time",
+      "skillsRequired": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "link": "https://careers.google.com",
+      "source": "LinkedIn Jobs"
+    },
+    {
+      "id": "job-2",
+      "title": "AI Deployment specialist",
+      "company": "OpenAI",
+      "location": "San Francisco, CA (Onsite)",
+      "salaryRange": "$180,000 - $240,000",
+      "jobType": "Full-time",
+      "skillsRequired": [
+        "Python",
+        "PyTorch",
+        "LLMs",
+        "Gemini",
+        "FastAPI",
+        "Kubernetes"
+      ],
+      "link": "https://openai.com/careers",
+      "source": "Indeed"
+    },
+    {
+      "id": "job-3",
+      "title": "Frontend Developer Intern",
+      "company": "Vercel",
+      "location": "Remote (Global)",
+      "salaryRange": "$45 - $60 / hour",
+      "jobType": "Internship",
+      "skillsRequired": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "Vite"
+      ],
+      "link": "https://vercel.com/careers",
+      "source": "Vercel Careers"
+    },
+    {
+      "id": "job-4",
+      "title": "Backend Core Architect",
+      "company": "Netflix",
+      "location": "Los Gatos, CA (Remote)",
+      "salaryRange": "$190,000 - $280,000",
+      "jobType": "Remote",
+      "skillsRequired": [
+        "Java",
+        "Spring Boot",
+        "Node.js",
+        "Cassandra",
+        "Microservices",
+        "AWS"
+      ],
+      "link": "https://jobs.netflix.com",
+      "source": "Indeed"
+    },
+    {
+      "id": "job-5",
+      "title": "Cloud Infrastructure Engineer",
+      "company": "Microsoft",
+      "location": "Redmond, WA (Hybrid)",
+      "salaryRange": "$140,000 - $185,000",
+      "jobType": "Full-time",
+      "skillsRequired": [
+        "Azure",
+        "Terraform",
+        "CI/CD",
+        "Docker",
+        "Go",
+        "Bash"
+      ],
+      "link": "https://careers.microsoft.com",
+      "source": "LinkedIn Jobs"
+    },
+    {
+      "id": "job-6",
+      "title": "React Native UI Intern",
+      "company": "Meta",
+      "location": "Menlo Park, CA",
+      "salaryRange": "$40 - $55 / hour",
+      "jobType": "Internship",
+      "skillsRequired": [
+        "React Native",
+        "React",
+        "JavaScript",
+        "Redux Toolkit",
+        "Figma"
+      ],
+      "link": "https://www.metacareers.com",
+      "source": "LinkedIn Jobs"
+    }
+  ],
+  "interviews": []
+}
