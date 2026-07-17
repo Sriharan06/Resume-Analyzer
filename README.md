@@ -6,6 +6,8 @@
 
 An advanced, AI-powered platform for resume analysis, certificate validation, personalized job matching, and HR analytics. Powered by Google Gemini AI and built with a modern React and Node.js full-stack architecture.
 
+🔗 **Live Deployment:** [https://resume-analyzer-kdb4.onrender.com/](https://resume-analyzer-kdb4.onrender.com/)
+
 View your app in AI Studio: https://ai.studio/apps/91fe693b-2658-4bb3-9e30-bb2d8813b1a8
 
 ---
