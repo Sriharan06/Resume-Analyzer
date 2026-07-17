@@ -26,8 +26,21 @@ import AuthModal from "./components/AuthModal";
 import LoginPage from "./components/LoginPage";
 
 export default function App() {
-  const [currentUser, setCurrentUser] = useState<User | null>(null);
-  const [token, setToken] = useState<string | null>(null);
+  const [currentUser, setCurrentUser] = useState<User | null>(() => {
+    try {
+      const saved = localStorage.getItem("current_user");
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
+    }
+  });
+  const [token, setToken] = useState<string | null>(() => {
+    try {
+      return localStorage.getItem("auth_token");
+    } catch {
+      return null;
+    }
+  });
   const [activeTab, setActiveTab] = useState<'resume' | 'certificate' | 'jobs' | 'hr'>('resume');
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -86,6 +99,31 @@ export default function App() {
       root.classList.remove('light-mode');
     }
   }, [theme, currentActiveTheme]);
+
+  // Synchronize authentication state to localStorage
+  React.useEffect(() => {
+    try {
+      if (currentUser) {
+        localStorage.setItem("current_user", JSON.stringify(currentUser));
+      } else {
+        localStorage.removeItem("current_user");
+      }
+    } catch (e) {
+      console.error("Failed to sync current_user to storage:", e);
+    }
+  }, [currentUser]);
+
+  React.useEffect(() => {
+    try {
+      if (token) {
+        localStorage.setItem("auth_token", token);
+      } else {
+        localStorage.removeItem("auth_token");
+      }
+    } catch (e) {
+      console.error("Failed to sync auth_token to storage:", e);
+    }
+  }, [token]);
   
   // Track last analysis to dynamically recommend jobs
   const [lastResumeAnalysis, setLastResumeAnalysis] = useState<ResumeAnalysis | null>(null);
@@ -110,7 +148,6 @@ export default function App() {
   const handlePremiumSuccess = (updatedUser: User) => {
     setCurrentUser(updatedUser);
   };
-
   if (!currentUser) {
     return <LoginPage onAuthSuccess={handleAuthSuccess} />;
   }

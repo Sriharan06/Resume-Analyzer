@@ -9,7 +9,316 @@
       "createdAt": "2026-06-28T11:46:49.441Z"
     }
   ],
-  "resumes": [],
+  "resumes": [
+    {
+      "id": "res-jqj5kn8ey",
+      "userId": "google-google-10492839482934",
+      "candidateName": "Alex Mercer - Full Stack Devel",
+      "roleTarget": "Senior Full Stack Engineer",
+      "overallScore": 78,
+      "skillsScore": 82,
+      "experienceScore": 75,
+      "formattingScore": 85,
+      "atsScore": 70,
+      "skillsDetected": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "missingSkills": [
+        "Docker",
+        "PostgreSQL",
+        "Express.js",
+        "Next.js"
+      ],
+      "improvements": [
+        "Quantify your career impacts: add actual metrics or KPIs to your experience section (e.g., 'boosted UI rendering by 35%').",
+        "Include a dedicated ATS-optimized section listing your technical tools and environments explicitly.",
+        "Rewrite passive summary sentences using high-impact action verbs (e.g., replace 'was responsible for' with 'Pioneered and managed')."
+      ],
+      "interviewQuestions": [
+        "Can you explain a time when you had to optimize performance for a lagging React application?",
+        "In your work, how do you manage Type definitions and compile-time safety inside high-scale TypeScript systems?",
+        "Describe how you coordinate state management across massive component trees without triggering excessive re-renders.",
+        "Why is Tailwind CSS or system-level utility classes preferred in your stack compared to CSS-in-JS?",
+        "How would you integrate an automated build-time pipeline or Vite config with continuous Docker deployments?"
+      ],
+      "summary": "An agile and detail-oriented engineer demonstrating sound foundations in frontend ecosystems. They possess key proficiencies in React and clean UI crafting, but can expand their ATS profile with backend databases and DevOps toolings to fit a wider range of full stack options.",
+      "predictedShortlistChance": 65,
+      "createdAt": "2026-06-28T17:56:50.447Z",
+      "toughnessReport": [
+        {
+          "topic": "Quantifiable Business Impact",
+          "rating": "Moderate",
+          "score": 72,
+          "critique": "While you claim to lead product interfaces, there is a lack of concrete growth metrics (e.g., % speedups, retention, or dollar value). Interviewers may view your claims as standard duties rather than impact-driven contributions.",
+          "defense": "Cite specific statistics: frame your work around how it directly optimized key product indicators, e.g. 'reduced latency by 35% for 10k active users'."
+        },
+        {
+          "topic": "Technical Core Depth",
+          "rating": "Exceptional",
+          "score": 88,
+          "critique": "Your React/TypeScript foundation is robust, but recruiters will immediately quiz you on complex rendering cycles and browser performance profiling to verify you haven't just memorized standard frameworks.",
+          "defense": "Familiarize yourself with Fiber, custom hook designs, and render profiling tools so you can confidently detail your mitigation of execution bottlenecks."
+        },
+        {
+          "topic": "System & Architectural Scope",
+          "rating": "Vulnerable",
+          "score": 65,
+          "critique": "Your resume shows stellar frontend work but skips over database architecture, continuous deployment pipelines, or robust back-end integrations, leaving you vulnerable to system-design grilling.",
+          "defense": "Prepare explanations of full-stack API lifecycles, database index optimizations, and how you coordinate data models across layers."
+        },
+        {
+          "topic": "ATS Parser Resilience",
+          "rating": "Robust",
+          "score": 84,
+          "critique": "The keyword selection is great, but complex layouts or text column dividers can occasionally throw off legacy parser structures, misaligning your listed stack with standard requirements.",
+          "defense": "Prepare a clean single-column PDF fallback. Explicitly state technical competencies under an obvious list category near the top."
+        },
+        {
+          "topic": "Objection & Grilling Resilience",
+          "rating": "Moderate",
+          "score": 75,
+          "critique": "Your bullets explain what you built, but not the trade-offs considered. Interviewers will challenge your architectural choices to see if you have technical opinion leadership.",
+          "defense": "Formulate rationales for each tech choice: e.g. why choosing Tailwind or Express was the optimal decision over other alternatives based on concrete constraints."
+        }
+      ]
+    },
+    {
+      "id": "res-fra56fq4p",
+      "userId": "google-google-10492839482934",
+      "candidateName": "Alex Mercer - Full Stack Devel",
+      "roleTarget": "Senior Full Stack Engineer",
+      "overallScore": 78,
+      "skillsScore": 82,
+      "experienceScore": 75,
+      "formattingScore": 85,
+      "atsScore": 70,
+      "skillsDetected": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "missingSkills": [
+        "Docker",
+        "PostgreSQL",
+        "Express.js",
+        "Next.js"
+      ],
+      "improvements": [
+        "Quantify your career impacts: add actual metrics or KPIs to your experience section (e.g., 'boosted UI rendering by 35%').",
+        "Include a dedicated ATS-optimized section listing your technical tools and environments explicitly.",
+        "Rewrite passive summary sentences using high-impact action verbs (e.g., replace 'was responsible for' with 'Pioneered and managed')."
+      ],
+      "interviewQuestions": [
+        "Can you explain a time when you had to optimize performance for a lagging React application?",
+        "In your work, how do you manage Type definitions and compile-time safety inside high-scale TypeScript systems?",
+        "Describe how you coordinate state management across massive component trees without triggering excessive re-renders.",
+        "Why is Tailwind CSS or system-level utility classes preferred in your stack compared to CSS-in-JS?",
+        "How would you integrate an automated build-time pipeline or Vite config with continuous Docker deployments?"
+      ],
+      "summary": "An agile and detail-oriented engineer demonstrating sound foundations in frontend ecosystems. They possess key proficiencies in React and clean UI crafting, but can expand their ATS profile with backend databases and DevOps toolings to fit a wider range of full stack options.",
+      "predictedShortlistChance": 65,
+      "createdAt": "2026-06-28T17:57:03.188Z",
+      "toughnessReport": [
+        {
+          "topic": "Quantifiable Business Impact",
+          "rating": "Moderate",
+          "score": 72,
+          "critique": "While you claim to lead product interfaces, there is a lack of concrete growth metrics (e.g., % speedups, retention, or dollar value). Interviewers may view your claims as standard duties rather than impact-driven contributions.",
+          "defense": "Cite specific statistics: frame your work around how it directly optimized key product indicators, e.g. 'reduced latency by 35% for 10k active users'."
+        },
+        {
+          "topic": "Technical Core Depth",
+          "rating": "Exceptional",
+          "score": 88,
+          "critique": "Your React/TypeScript foundation is robust, but recruiters will immediately quiz you on complex rendering cycles and browser performance profiling to verify you haven't just memorized standard frameworks.",
+          "defense": "Familiarize yourself with Fiber, custom hook designs, and render profiling tools so you can confidently detail your mitigation of execution bottlenecks."
+        },
+        {
+          "topic": "System & Architectural Scope",
+          "rating": "Vulnerable",
+          "score": 65,
+          "critique": "Your resume shows stellar frontend work but skips over database architecture, continuous deployment pipelines, or robust back-end integrations, leaving you vulnerable to system-design grilling.",
+          "defense": "Prepare explanations of full-stack API lifecycles, database index optimizations, and how you coordinate data models across layers."
+        },
+        {
+          "topic": "ATS Parser Resilience",
+          "rating": "Robust",
+          "score": 84,
+          "critique": "The keyword selection is great, but complex layouts or text column dividers can occasionally throw off legacy parser structures, misaligning your listed stack with standard requirements.",
+          "defense": "Prepare a clean single-column PDF fallback. Explicitly state technical competencies under an obvious list category near the top."
+        },
+        {
+          "topic": "Objection & Grilling Resilience",
+          "rating": "Moderate",
+          "score": 75,
+          "critique": "Your bullets explain what you built, but not the trade-offs considered. Interviewers will challenge your architectural choices to see if you have technical opinion leadership.",
+          "defense": "Formulate rationales for each tech choice: e.g. why choosing Tailwind or Express was the optimal decision over other alternatives based on concrete constraints."
+        }
+      ]
+    },
+    {
+      "id": "res-df6rwpmfx",
+      "userId": "google-google-10492839482934",
+      "candidateName": "Alex Mercer - Full Stack Devel",
+      "roleTarget": "Senior Full Stack Engineer",
+      "overallScore": 78,
+      "skillsScore": 82,
+      "experienceScore": 75,
+      "formattingScore": 85,
+      "atsScore": 70,
+      "skillsDetected": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "missingSkills": [
+        "Docker",
+        "PostgreSQL",
+        "Express.js",
+        "Next.js"
+      ],
+      "improvements": [
+        "Quantify your career impacts: add actual metrics or KPIs to your experience section (e.g., 'boosted UI rendering by 35%').",
+        "Include a dedicated ATS-optimized section listing your technical tools and environments explicitly.",
+        "Rewrite passive summary sentences using high-impact action verbs (e.g., replace 'was responsible for' with 'Pioneered and managed')."
+      ],
+      "interviewQuestions": [
+        "Can you explain a time when you had to optimize performance for a lagging React application?",
+        "In your work, how do you manage Type definitions and compile-time safety inside high-scale TypeScript systems?",
+        "Describe how you coordinate state management across massive component trees without triggering excessive re-renders.",
+        "Why is Tailwind CSS or system-level utility classes preferred in your stack compared to CSS-in-JS?",
+        "How would you integrate an automated build-time pipeline or Vite config with continuous Docker deployments?"
+      ],
+      "summary": "An agile and detail-oriented engineer demonstrating sound foundations in frontend ecosystems. They possess key proficiencies in React and clean UI crafting, but can expand their ATS profile with backend databases and DevOps toolings to fit a wider range of full stack options.",
+      "predictedShortlistChance": 65,
+      "createdAt": "2026-06-28T17:57:26.828Z",
+      "toughnessReport": [
+        {
+          "topic": "Quantifiable Business Impact",
+          "rating": "Moderate",
+          "score": 72,
+          "critique": "While you claim to lead product interfaces, there is a lack of concrete growth metrics (e.g., % speedups, retention, or dollar value). Interviewers may view your claims as standard duties rather than impact-driven contributions.",
+          "defense": "Cite specific statistics: frame your work around how it directly optimized key product indicators, e.g. 'reduced latency by 35% for 10k active users'."
+        },
+        {
+          "topic": "Technical Core Depth",
+          "rating": "Exceptional",
+          "score": 88,
+          "critique": "Your React/TypeScript foundation is robust, but recruiters will immediately quiz you on complex rendering cycles and browser performance profiling to verify you haven't just memorized standard frameworks.",
+          "defense": "Familiarize yourself with Fiber, custom hook designs, and render profiling tools so you can confidently detail your mitigation of execution bottlenecks."
+        },
+        {
+          "topic": "System & Architectural Scope",
+          "rating": "Vulnerable",
+          "score": 65,
+          "critique": "Your resume shows stellar frontend work but skips over database architecture, continuous deployment pipelines, or robust back-end integrations, leaving you vulnerable to system-design grilling.",
+          "defense": "Prepare explanations of full-stack API lifecycles, database index optimizations, and how you coordinate data models across layers."
+        },
+        {
+          "topic": "ATS Parser Resilience",
+          "rating": "Robust",
+          "score": 84,
+          "critique": "The keyword selection is great, but complex layouts or text column dividers can occasionally throw off legacy parser structures, misaligning your listed stack with standard requirements.",
+          "defense": "Prepare a clean single-column PDF fallback. Explicitly state technical competencies under an obvious list category near the top."
+        },
+        {
+          "topic": "Objection & Grilling Resilience",
+          "rating": "Moderate",
+          "score": 75,
+          "critique": "Your bullets explain what you built, but not the trade-offs considered. Interviewers will challenge your architectural choices to see if you have technical opinion leadership.",
+          "defense": "Formulate rationales for each tech choice: e.g. why choosing Tailwind or Express was the optimal decision over other alternatives based on concrete constraints."
+        }
+      ]
+    },
+    {
+      "id": "res-fphci9f16",
+      "userId": "google-google-10492839482934",
+      "candidateName": "Alex Mercer - Full Stack Devel",
+      "roleTarget": "Senior Full Stack Engineer",
+      "overallScore": 78,
+      "skillsScore": 82,
+      "experienceScore": 75,
+      "formattingScore": 85,
+      "atsScore": 70,
+      "skillsDetected": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ],
+      "missingSkills": [
+        "Docker",
+        "PostgreSQL",
+        "Express.js",
+        "Next.js"
+      ],
+      "improvements": [
+        "Quantify your career impacts: add actual metrics or KPIs to your experience section (e.g., 'boosted UI rendering by 35%').",
+        "Include a dedicated ATS-optimized section listing your technical tools and environments explicitly.",
+        "Rewrite passive summary sentences using high-impact action verbs (e.g., replace 'was responsible for' with 'Pioneered and managed')."
+      ],
+      "interviewQuestions": [
+        "Can you explain a time when you had to optimize performance for a lagging React application?",
+        "In your work, how do you manage Type definitions and compile-time safety inside high-scale TypeScript systems?",
+        "Describe how you coordinate state management across massive component trees without triggering excessive re-renders.",
+        "Why is Tailwind CSS or system-level utility classes preferred in your stack compared to CSS-in-JS?",
+        "How would you integrate an automated build-time pipeline or Vite config with continuous Docker deployments?"
+      ],
+      "summary": "An agile and detail-oriented engineer demonstrating sound foundations in frontend ecosystems. They possess key proficiencies in React and clean UI crafting, but can expand their ATS profile with backend databases and DevOps toolings to fit a wider range of full stack options.",
+      "predictedShortlistChance": 65,
+      "createdAt": "2026-07-07T17:35:50.621Z",
+      "toughnessReport": [
+        {
+          "topic": "Quantifiable Business Impact",
+          "rating": "Moderate",
+          "score": 72,
+          "critique": "While you claim to lead product interfaces, there is a lack of concrete growth metrics (e.g., % speedups, retention, or dollar value). Interviewers may view your claims as standard duties rather than impact-driven contributions.",
+          "defense": "Cite specific statistics: frame your work around how it directly optimized key product indicators, e.g. 'reduced latency by 35% for 10k active users'."
+        },
+        {
+          "topic": "Technical Core Depth",
+          "rating": "Exceptional",
+          "score": 88,
+          "critique": "Your React/TypeScript foundation is robust, but recruiters will immediately quiz you on complex rendering cycles and browser performance profiling to verify you haven't just memorized standard frameworks.",
+          "defense": "Familiarize yourself with Fiber, custom hook designs, and render profiling tools so you can confidently detail your mitigation of execution bottlenecks."
+        },
+        {
+          "topic": "System & Architectural Scope",
+          "rating": "Vulnerable",
+          "score": 65,
+          "critique": "Your resume shows stellar frontend work but skips over database architecture, continuous deployment pipelines, or robust back-end integrations, leaving you vulnerable to system-design grilling.",
+          "defense": "Prepare explanations of full-stack API lifecycles, database index optimizations, and how you coordinate data models across layers."
+        },
+        {
+          "topic": "ATS Parser Resilience",
+          "rating": "Robust",
+          "score": 84,
+          "critique": "The keyword selection is great, but complex layouts or text column dividers can occasionally throw off legacy parser structures, misaligning your listed stack with standard requirements.",
+          "defense": "Prepare a clean single-column PDF fallback. Explicitly state technical competencies under an obvious list category near the top."
+        },
+        {
+          "topic": "Objection & Grilling Resilience",
+          "rating": "Moderate",
+          "score": 75,
+          "critique": "Your bullets explain what you built, but not the trade-offs considered. Interviewers will challenge your architectural choices to see if you have technical opinion leadership.",
+          "defense": "Formulate rationales for each tech choice: e.g. why choosing Tailwind or Express was the optimal decision over other alternatives based on concrete constraints."
+        }
+      ]
+    }
+  ],
   "certificates": [],
   "jobs": [
     {
